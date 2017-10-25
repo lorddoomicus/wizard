@@ -6,10 +6,27 @@
 # This should be sourced, ie: . ~/wizard.sh 
 #
 # 2016-12-05	DW2	Initial version
+# 2017-10-25	DW2	Added add, sub, mult, and div fuctions
 #
 
 pi=$( echo pi | wizard )
 e=$( echo e | wizard )
+
+add() {
+	echo $1 + $2 | wizard
+}
+
+sub() {
+	echo "$1 - $2" | wizard
+}
+
+mult() {
+	echo "$1 * $2" | wizard
+}
+
+div() {
+	echo "$1 / $2" | wizard
+}
 
 sqrt() {
 	echo sqrt $1 | wizard
