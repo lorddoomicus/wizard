@@ -1,15 +1,11 @@
-/******************************************************************************
- * wizard.c                                                                   *
- * (c) 2012 Derrik Walker v2.0                                                *
- *                                                                            * 
- * This is licensed for use under the GNU General Pulbic License v2           *
- *                                                                            *
- * This is the main C file.                                                   *
- *                                                                            *
- * 2015-04-27	DW2	Initial Release                                       *
- *                                                                            *
- ******************************************************************************/
-
+/*
+ * (c) 2015 Derrik Walker v2.0
+ * This is licensed for use under the GNU General Public License v2
+ *
+ * 2015-04-27	dwalker		Initial version 
+ * 2022-09-13	dwalker		Updated for c99 compliance
+ */                                                      
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +17,7 @@
 jmp_buf here;
 double prev;
 
-main( int argc, char **argv ) {
+int main( int argc, char **argv ) {
 
 	extern FILE* yyin;
 

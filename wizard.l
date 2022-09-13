@@ -1,14 +1,9 @@
-/******************************************************************************
- * wizard.l                                                                   *
- * (c) 2012 Derrik Walker v2.0                                                *
- *                                                                            * 
- * This is licensed for use under the GNU General Pulbic License v2           *
- *                                                                            *
- * This is the lex file.                                                      *
- *                                                                            *
- * 2015-04-27	DW2	Initial Release                                       *
- *                                                                            *
- ******************************************************************************/
+/*
+ * (c) 2015 Derrik Walker v2.0
+ * This is licensed for use under the GNU General Public License v2
+ *
+ * 2015-04-27	dwalker		Initial Version 
+ */
 
 %option noyywrap nodefault
 

@@ -5,8 +5,8 @@
 #
 # This should be sourced, ie: . ~/wizard.sh 
 #
-# 2016-12-05	DW2	Initial version
-# 2017-10-25	DW2	Added add, sub, mult, and div fuctions
+# 2016-12-05	dwalker		Initial version
+# 2017-10-25	dwalker		Added add, sub, mult, and div fuctions
 #
 
 pi=$( echo pi | wizard )

@@ -1,16 +1,11 @@
 #!/usr/local/bin/wizard
 #
-#/*****************************************************************************
-# * exmaple.w                                                                 *
-# * (c) 2012 Derrik Walker v2.0                                               *
-# *                                                                           *
-# * This is licensed for use under the GNU General Pulbic License v2          *
-# *                                                                           *
-# * This is some examples of how to use wizard.                               *
-# *                                                                           *
-# * 2015-04-27	DWv2	Initial Release                                       *
-# *                                                                           *
-# *****************************************************************************/
+# This is some examples of how to use wizard.
+#
+# (c) 2015 Derrik Walker v2.0
+# This is licensed for use under the GNU General Public License v2
+#
+# 2015-04-27	dwalker		Initial Version 
 
 " 1 -  1 = "
 1 -  1

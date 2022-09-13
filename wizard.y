@@ -1,14 +1,9 @@
-/******************************************************************************
- * wizard.y                                                                   *
- * (c) 2012 Derrik Walker v2.0                                                *
- *                                                                            * 
- * This is licensed for use under the GNU General Pulbic License v2           *
- *                                                                            *
- * This is the yacc file.                                                     *
- *                                                                            *
- * 2015-04-27	DW2	Initial Release                                       *
- *                                                                            *
- ******************************************************************************/
+/*
+ * (c) 2015 Derrik Walker v2.0
+ * This is licensed for use under the GNU General Pulbic License v2
+ *
+ * 2015-04-27	dwalker		Initial Version 
+ */
 
 %{
 #include <stdio.h>
